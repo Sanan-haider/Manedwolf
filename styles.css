@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.sidebarmenu h1{
+    font-size: 25px;
+
+}
+nav{
+    height: 80px;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+nav .menu-btn i{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display:none;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 4px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover,
+nav ul li a.active
+{
+    background: #fff;
+    color: #1b1b1b;
+}
+
+nav .sidebarmenu{
+    font-size: 33px;
+    color: white;
+    font-weight: 600;
+}
+#click{
+    display: none;
+}
+.banner-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+  
+}
+.banner-image img{
+    width: 40%;
+}
+.navig img{
+    width: 30px;
+    height: 20px;
+   
+}
+
+.txt{
+    width: 40%;
+    text-align: center;
+  
+}
+.txt a{
+    
+    text-decoration: none
+}
+
+.txt a h5{
+    background: #43680c;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0px 80px 0px 80px;
+    padding: 6px;
+;
+    
+}
+.txt p {
+    line-height: 2;
+}
+.txt a h5:hover{
+    background: #E94B3CFF;
+}
+.mainfooter{
+    background: #1b1b1b;
+}
+.footer{
+    
+    display: flex;
+    padding: 50px;
+}
+.footerimg img{
+    width: 25%;
+    border-radius: 50%;
+  
+    
+}
+.footerimg p{
+    color: #fff;
+}
+.footerimg{
+    width:33% ;
+    position: relative;
+    top: -15px;
+    text-align: center;
+}
+.location{
+    width: 33%;
+    color: #fff;
+    text-align: center;
+}
+.location p{
+    line-height: 25px;
+}
+.links h1{
+    color: #fff;
+}
+.location h1{
+    color: #fff;
+}
+.links{
+    width: 33%;
+    color: #fff;
+    text-align: center;
+    
+}
+.links ul{
+    list-style: none;
+}
+.links a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.links a:hover{
+    
+    opacity: 0.4;
+}
+.anchor{
+    line-height: 25px;
+}
+.anchor a{
+    
+}
+.last{
+    color: #fff;
+    text-align: center;
+}
+.last p{
+    color:#fff;
+}
+i.fa.fa-facebook {
+    font-size: 30px;
+    padding: 10px;
+}
+i.fa.fa-instagram {
+    font-size: 30px;
+    padding: 10px;
+}
+.fa-instagram {
+    color: #fff;
+}
+.fa-instagram:hover{
+    opacity: 0.4;
+}
+.fa-facebook:hover {
+    opacity: 0.4;
+}
+.fa-facebook {
+    color: #fff;
+}
+input[type="text"] {
+    width: 250px;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 6px;
+}
+button{
+    width: 250px;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 6px;
+    background: #43680c;
+  
+}
+button:hover{
+    background: #E94B3CFF;
+}
+ /*-----------account---------*/
+      .formcontainer{
+    
+   
+     }
+     .formcontainer p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+    font-family: sans-serif;
+   
+    }
+    .formbtn{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px 20px 0px;
+        text-align: center;
+        flex-direction: column;
+        
+     }
+    
+    input#pass {
+        width: 250px;
+        padding: 6px;
+        border-radius: 10px;
+        margin: 6px;
+    }
+    input[type="submit"] {
+        width: 150px;
+        padding: 6px;
+        border-radius: 10px;
+        margin: 6px;
+        background: #43680c;
+        margin: 10px;
+    }
+    input[type="submit"]:hover{
+        background: #E94B3CFF;
+    }
+    .formbtn a{
+        text-decoration: none;
+        color: #4C8492;
+    }
+    .formbtn a:hover{
+       text-decoration: underline;
+        
+    }
+    
+    input[type="email"] {
+        width: 250px;
+        padding: 6px;
+        border-radius: 10px;
+        margin: 6px;
+    }
+    input#secondpass {
+        width: 250px;
+        padding: 6px;
+        border-radius: 10px;
+        margin: 6px
+    }
+    form#form1 {
+        background: aliceblue;
+        margin: 0px 200px 0px 200px;
+        border-radius: 20px;
+        padding: 8px;
+    }
+    form#form2 {
+        background: aliceblue;
+        margin: 0px 200px 0px 200px;
+        border-radius: 20px;
+        padding: 8px;
+    }
+    .btn2 p{
+    
+    
+    font-size: 15px;
+    padding: 5px;
+    }
+    .btn2 p a{
+        text-decoration: none;
+        color: #4C8492;
+        font-size: 15px;
+    }
+    .mainlogo {
+        text-align: center;
+    }
+    .mainlogo img{
+       width: 70px;
+    }
+ /*-----------account---------*/
+ /*-----------registration---------*/
+ .formcontainer2 p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+    font-family: sans-serif;
+}
+.btnreg p {
+    
+    font-size: 12px;
+}
+span{
+    color: #4C8492;
+}
+/*-----------registration---------*/
+@media (max-width:940px){
+    .btnreg p {
+        font-size: 9px;
+    }
+    input#email {
+        width: 250px;
+        padding: 6px;
+        border-radius: 10px;
+        margin: 6px;
+    }
+    input[type="email"] {
+        width: 170px;
+        padding: 6px;
+        border-radius: 10px;
+        margin: 6px;
+    }
+    form#form1 {
+        background: aliceblue;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 0;
+    }
+    form#form2 {
+        background: aliceblue;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 0;
+    }
+    .banner-image{
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;   
+    padding: 20px;
+    row-gap: 40px;
+    }
+    .txt a h5 {
+        background: #43680c;
+        border-radius: 10px;
+        color: #fff;
+        margin: 0px 60px 0px 60px;
+        padding: 6px;
+    }
+    .txt p {
+        line-height: 1;
+        font-size: 17px;
+    }
+    .banner-image img{
+        width: 90%;
+    }
+    .banner-image  .txt{
+        width: 90%;
+        text-align: center;
+      
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        row-gap: 30px !important;
+    }
+    section.footer div {
+        flex: 1 0 100% !important;
+        width: 100% !important;
+    }
+    button{
+        width: 170px;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 6px;
+    background: #E94B3CFF;
+    }
+    input[type="text"] {
+        width: 250px;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 6px;
+    }
+
+    nav ul{
+       position: fixed;
+       top: 80px;
+       left: -100%;
+       background: #111;
+       height: 100vh;
+       width: 100%;
+       display: block;
+       transition: all 0.3s ease;
+    } 
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .menu-btn i::before{
+       content: "\f00d";
+    }
+    nav ul li{
+        margin: 40px 0;
+        text-align: center;
+    }
+    nav ul li a{
+        font-size: 20px;
+        display: block;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active
+    {
+        background: none;
+        color: cyan;
+    }
+    nav .menu-btn i{
+        display: block;
+    }
+
+}

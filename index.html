@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+
+    <title>Maned wolf. Quality is our business</title>
+
+</head>
+<body>
+<!--------------------navigation---------------------->
+<nav class="navig">
+    <div class="sidebarmenu"> <h1>Maned Wolf</h1>  </div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+        <li> <a class="active" href="index.html"> Home</a></li>
+        <li> <a href=#> Products</a></li>
+        <li> <a href=#> About Us</a></li>
+        <li> <a href=#> Contact Us</a></li>
+        <li> <a href="account.html"> Account</a></li>
+        <li><a><img src="images/cart.png" alt="cart" ></a></li>
+    </ul> 
+    
+</nav>  
+   <!--------------------navigation---------------------->
+   <!--------------------center---------------------->
+   <div class="banner-image">
+    <img src="images/one.jpeg" id="slider" alt="bannerimage">
+    <div class="txt">
+        <h1>Give your attire <br>a new style!</h1>
+        <p>We deal in premium quality organic cotton T-shirts</p>
+        <a href="account.html"><h5>Explore Now</h5></a>
+    </div>
+    <script>
+        var images =[
+            "images/one.jpeg","images/two.jpeg","images/three.jpeg","images/four.png","images/five.jpeg"
+        ];
+        var i=0;
+
+        function first(){
+            document.getElementById("slider") .src=images[i];
+       
+        if(i<(images.length-1))
+        i++;
+        else
+        i=0;
+        }
+        setInterval(first,4000);
+    </script>
+    
+   </div>
+<!--------------------center---------------------->
+<!-----------------footer-------------------->
+   
+   <footer class="mainfooter">
+    <section class="footer">
+        <div class="footerimg">
+         <img src="images/logo.jpg" alt="bannerimage">
+         <p>Quality is our business</p>
+         <a href="https://manedwolf.com.pk/"><i class="fa fa-facebook"></i></a>
+         <a href=""><i class="fa fa-instagram"></i></a>
+         <p>Get latest news and offers</p>
+         <input type="email" placeholder="Email Address">
+         <button>Subscribe</button>
+        </div>
+        
+        <div class="location">
+            <h1>Our Location</h1>
+            <p>Kohinoor one <br> Mediacom Trade City <br> Faisalabad, Pakistan </p>
+            <p>041-6544876</p>
+        </div>
+        <div class="links">
+            <h1>Quick Links</h1>
+            <ul class="anchor">
+                <li> <a class="active" href="index.html"> Home</a></li>
+                <li> <a href=#> Products</a></li>
+                <li> <a href=#> About Us</a></li>
+                <li> <a href=#> Contact Us</a></li>
+                <li> <a href="account.html"> Account</a></li>
+                <li> <a href="registeration.html"> Register</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="cpyright">
+        <div class="last">
+            <hr>    
+            <p>Copyright@2022 ManedWolf
+            </p>
+        <p>  All rights reserved</p>
+        </div>
+    </section>
+   </footer>
+   <!-----------------footer-------------------->
+</body>
+</html>
